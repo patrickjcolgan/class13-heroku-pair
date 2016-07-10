@@ -18,6 +18,7 @@
     }).done(callback);
   };
 
+
   repos.with = function(attr) {
     return repos.all.filter(function(repo) {
       return repo[attr];
